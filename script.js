@@ -147,14 +147,14 @@ function initPostPage() {
 // ============================================
 
 document.addEventListener('DOMContentLoaded', () => {
-    const path = window.location.pathname;
-    const page = path.substring(path.lastIndexOf('/') + 1);
+    const path = window.location.pathname.toLowerCase();
+    const page = path.substring(path.lastIndexOf('/') + 1).replace('.html', '');
 
-    if (page === 'index.html' || page === '') {
+    if (page === 'index' || page === '') {
         initHomePage();
-    } else if (page === 'blog.html') {
+    } else if (page === 'blog') {
         initBlogPage();
-    } else if (page === 'post.html') {
+    } else if (page === 'post') {
         initPostPage();
     }
 });
