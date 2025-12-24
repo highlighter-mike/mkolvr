@@ -244,6 +244,16 @@ a.meta-value:hover {
     margin-bottom: var(--space-xs);
 }
 
+.post-item-meta a {
+    color: var(--color-gray);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.post-item-meta a:hover {
+    color: var(--color-black);
+}
+
 .post-item-title {
     font-family: var(--font-body);
     font-size: clamp(1.25rem, 2.5vw, 1.75rem);
