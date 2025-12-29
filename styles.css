@@ -157,6 +157,16 @@ body {
     color: var(--color-gray-dark);
 }
 
+.highlight {
+    background: linear-gradient(180deg, transparent 60%, #FFF176 60%);
+    padding: 0 0.1em;
+}
+
+.highlight a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .about-contact {
     display: flex;
     flex-direction: row;
