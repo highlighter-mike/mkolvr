@@ -425,6 +425,41 @@ a.meta-value:hover {
 }
 
 /* ============================================
+   Case Study
+   ============================================ */
+
+.case-study-subtitle {
+    font-size: 1.25rem;
+    color: var(--color-gray-dark);
+    line-height: 1.5;
+    margin-top: var(--space-sm);
+}
+
+.case-study-figure {
+    margin: var(--space-xl) 0;
+}
+
+.case-study-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid var(--color-gray-light);
+}
+
+.case-study-figure figcaption {
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+    color: var(--color-gray);
+    margin-top: var(--space-sm);
+    line-height: 1.5;
+}
+
+.post-content strong {
+    font-weight: 600;
+    color: var(--color-black);
+}
+
+/* ============================================
    Footer
    ============================================ */
 
